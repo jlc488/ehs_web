@@ -7,9 +7,9 @@ import Wizard from "components/Wizard/Wizard.js";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 
-import Step1 from "components/WizardSteps/step1.js";
-import Step2 from "components/WizardSteps/step2.js";
-import Step3 from "components/WizardSteps/step3.js";
+import Step1 from "components/WizardSteps/Step1.js";
+import Step2 from "components/WizardSteps/Step2.js";
+import Step3 from "components/WizardSteps/Step3.js";
 
 function WizardView() {
   return (
