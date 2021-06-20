@@ -23,6 +23,7 @@ const style = {
   ...customSelectStyle,
 };
 
+
 const Step3 = React.forwardRef((props, ref) => {
   const [simpleSelect, setsimpleSelect] = React.useState("");
   const sendState = () => {
