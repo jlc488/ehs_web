@@ -31,6 +31,8 @@ export default function Footer(props) {
   return (
     <footer className={classes.footer}>
       <div className={container}>
+      {
+        /*
         <div className={classes.left}>
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
@@ -55,6 +57,8 @@ export default function Footer(props) {
             </ListItem>
           </List>
         </div>
+        */
+      }
         <p className={classes.right}>
           &copy; {1900 + new Date().getYear()}{" "}
           <a
@@ -62,11 +66,11 @@ export default function Footer(props) {
             className={anchor}
             target="_blank"
           >
-            {rtlActive ? "توقيت الإبداعية" : "Creative Tim"}
+            {rtlActive ? "توقيت الإبداعية" : "SexySinny"}
           </a>
           {rtlActive
             ? ", مصنوعة مع الحب لشبكة الإنترنت أفضل"
-            : ", made with love for a better web"}
+            : ", 안전환경 관리 시스템"}
         </p>
       </div>
     </footer>

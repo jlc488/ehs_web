@@ -11,7 +11,7 @@ import WidgetsIcon from "@material-ui/icons/Widgets";
 var dashRoutes = [
   {
     path: "/dashboard",
-    name: "Dashboard",
+    name: "관리자 메인",
     rtlName: "لوحة القيادة",
     icon: DashboardIcon,
 
@@ -19,7 +19,7 @@ var dashRoutes = [
   },
   {
     collapse: true,
-    name: "Pages",
+    name: "안전환경 관리",
     rtlName: "صفحات",
     icon: Image,
     state: "pageCollapse",
@@ -100,7 +100,7 @@ var dashRoutes = [
   },
   {
     collapse: true,
-    name: "Components",
+    name: "작업자 관리",
     rtlName: "المكونات",
     icon: Apps,
     state: "componentsCollapse",
@@ -191,7 +191,7 @@ var dashRoutes = [
   },
   {
     collapse: true,
-    name: "Forms",
+    name: "회사정보",
     rtlName: "إستمارات",
     icon: "content_paste",
     state: "formsCollapse",
@@ -236,7 +236,7 @@ var dashRoutes = [
   },
   {
     collapse: true,
-    name: "Tables",
+    name: "설정",
     rtlName: "الجداول",
     icon: GridOn,
     state: "tablesCollapse",

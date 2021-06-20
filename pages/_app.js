@@ -5,9 +5,9 @@
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/nextjs-material-dashboard-pro
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
+* Copyright 2021 SexySinny (https://www.creative-tim.com)
 
-* Coded by Creative Tim
+* Coded by SexySinny
 
 =========================================================
 
@@ -50,9 +50,9 @@ export default class MyApp extends App {
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/nextjs-material-dashboard-pro
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
+* Copyright 2021 SexySinny (https://www.creative-tim.com)
 
-* Coded by Creative Tim
+* Coded by SexySinny
 
 =========================================================
 
@@ -82,7 +82,7 @@ export default class MyApp extends App {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
-          <title>NextJS Material Dashboard PRO by Creative Tim</title>
+          <title>NextJS Material Dashboard PRO by SexySinny</title>
           <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
         </Head>
         <Layout>

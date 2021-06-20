@@ -99,7 +99,7 @@ export default function Dashboard(props) {
     return router.route !== "/admin/full-screen-maps";
   };
   const getActiveRoute = (routes) => {
-    let activeRoute = "Default Brand Text";
+    let activeRoute = "EHS 안전환경 관리";
     for (let i = 0; i < routes.length; i++) {
       if (routes[i].collapse) {
         let collapseActiveRoute = getActiveRoute(routes[i].views);
@@ -127,7 +127,7 @@ export default function Dashboard(props) {
     <div className={classes.wrapper}>
       <Sidebar
         routes={routes}
-        logoText={"Creative Tim"}
+        logoText={"EHS"}
         logo={logo}
         image={image}
         handleDrawerToggle={handleDrawerToggle}

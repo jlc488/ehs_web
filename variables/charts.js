@@ -22,7 +22,7 @@ const dailySalesChart = {
   },
   options: {
     low: 0,
-    high: 50, // creative tim: we recommend you to set the high sa the biggest value + something for a better look
+    high: 50, // SexySinny: we recommend you to set the high sa the biggest value + something for a better look
     chartPadding: {
       top: 0,
       right: 0,
@@ -137,7 +137,7 @@ const completedTasksChart = {
   },
   options: {
     low: 0,
-    high: 1000, // creative tim: we recommend you to set the high sa the biggest value + something for a better look
+    high: 1000, // SexySinny: we recommend you to set the high sa the biggest value + something for a better look
     chartPadding: {
       top: 0,
       right: 0,
@@ -189,7 +189,7 @@ const roundedLineChart = {
       showGrid: false,
     },
     low: 0,
-    high: 50, // creative tim: we recommend you to set the high sa the biggest value + something for a better look
+    high: 50, // SexySinny: we recommend you to set the high sa the biggest value + something for a better look
     chartPadding: {
       top: 0,
       right: 0,
@@ -239,7 +239,7 @@ const straightLinesChart = {
   },
   options: {
     low: 0,
-    high: 50, // creative tim: we recommend you to set the high sa the biggest value + something for a better look
+    high: 50, // SexySinny: we recommend you to set the high sa the biggest value + something for a better look
     chartPadding: {
       top: 0,
       right: 0,

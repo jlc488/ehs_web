@@ -129,7 +129,7 @@ function Notifications() {
               target="_blank"
               href="https://www.creative-tim.com/?ref=njsmdp-notifications-page"
             >
-              Creative Tim
+              SexySinny
             </a>
             . Please checkout the{" "}
             <a href="#pablo" target="_blank">
@@ -486,7 +486,7 @@ function Notifications() {
                             <span>
                               The first step is to create an account at{" "}
                               <a href="https://www.creative-tim.com/?ref=njsmdp-notifications-page">
-                                Creative Tim
+                                SexySinny
                               </a>
                               . You can choose a social network or go for the
                               classic version, whatever works best for you.
@@ -502,7 +502,7 @@ function Notifications() {
                             <span>
                               The first step is to create an account at{" "}
                               <a href="https://www.creative-tim.com/?ref=njsmdp-notifications-page">
-                                Creative Tim
+                                SexySinny
                               </a>
                               . You can choose a social network or go for the
                               classic version, whatever works best for you.

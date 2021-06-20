@@ -333,9 +333,13 @@ function Sidebar(props) {
     });
   var user = (
     <div className={userWrapperClass}>
+      {
+        /*
       <div className={photo}>
         <img src={avatar} className={classes.avatarImg} alt="..." />
       </div>
+         */
+      }
       <List className={classes.list}>
         <ListItem className={classes.item + " " + classes.userItem}>
           <a
@@ -344,7 +348,7 @@ function Sidebar(props) {
             onClick={() => setOpenAvatar(!openAvatar)}
           >
             <ListItemText
-              primary={rtlActive ? "تانيا أندرو" : "Tania Andrew"}
+              primary={rtlActive ? "تانيا أندرو" : "청자 - 동탄"}
               secondary={
                 <b
                   className={
@@ -371,12 +375,14 @@ function Sidebar(props) {
                     {rtlActive ? "مع" : "MP"}
                   </span>
                   <ListItemText
-                    primary={rtlActive ? "ملفي" : "My Profile"}
+                    primary={rtlActive ? "ملفي" : "관리자 정보"}
                     disableTypography={true}
                     className={collapseItemText}
                   />
                 </a>
               </ListItem>
+              {
+                /*
               <ListItem className={classes.collapseItem}>
                 <a
                   href="#"
@@ -407,6 +413,8 @@ function Sidebar(props) {
                   />
                 </a>
               </ListItem>
+                 */
+              }
             </List>
           </Collapse>
         </ListItem>
